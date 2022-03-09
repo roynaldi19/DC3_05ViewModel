@@ -34,7 +34,6 @@ class MainActivity : AppCompatActivity() {
                 else -> {
                     viewModel.calculate(width, height, length)
                     displayResult()
-
                 }
             }
         }
