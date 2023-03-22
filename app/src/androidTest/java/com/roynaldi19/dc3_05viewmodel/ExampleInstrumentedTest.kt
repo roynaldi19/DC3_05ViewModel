@@ -1,4 +1,4 @@
-package com.roynaldi19.bfaa05_01viewmodel
+package com.roynaldi19.dc3_05viewmodel
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

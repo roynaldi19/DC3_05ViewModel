@@ -1,10 +1,9 @@
-package com.roynaldi19.bfaa05_01viewmodel
+package com.roynaldi19.dc3_05viewmodel
 
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
-import androidx.lifecycle.ViewModelProvider
-import com.roynaldi19.bfaa05_01viewmodel.databinding.ActivityMainBinding
+import com.roynaldi19.dc3_05viewmodel.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
