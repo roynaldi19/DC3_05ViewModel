@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import com.roynaldi19.dc3_05viewmodel.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-
     private lateinit var activityMainBinding: ActivityMainBinding
     private val viewModel: MainViewModel by viewModels()
 
@@ -14,6 +13,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         activityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(activityMainBinding.root)
+
+        displayResult()
 
         activityMainBinding.btnCalculate.setOnClickListener {
             val width = activityMainBinding.edtWidth.text.toString()
@@ -37,6 +38,7 @@ class MainActivity : AppCompatActivity() {
             }
         }
     }
+
     private fun displayResult(){
         activityMainBinding.tvResult.text = viewModel.result.toString()
     }
